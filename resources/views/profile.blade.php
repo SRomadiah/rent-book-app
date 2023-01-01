@@ -1,16 +1,6 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+@extends('layouts.mainlayout')
 
-  <title>Profile</title>
-</head>
-<body>
-  
-  
-<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
-</body>
-</html>
+@section('title', 'Profile')
+@section('content')
+    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Debitis voluptatem illo, aliquid temporibus, blanditiis doloribus nam molestias dolores modi natus corrupti amet laborum voluptates totam mollitia rem. Incidunt, optio non sed perferendis ipsa neque autem? Quisquam iure velit incidunt, possimus fugit eos consectetur nobis iusto tenetur explicabo quaerat sunt asperiores quidem nulla aspernatur quia nemo deleniti ratione dolorem dolorum cumque. Officia nostrum deleniti dicta at non architecto vel fugit rem consectetur debitis soluta, sed laboriosam dolorum cumque quisquam unde ratione veritatis perspiciatis tempora facere delectus. Velit commodi nam delectus minus unde consequuntur saepe obcaecati repudiandae sunt dolorum error libero nisi aspernatur sint ad placeat mollitia suscipit tenetur similique amet iusto eaque tempora, exercitationem nihil. Obcaecati, maxime tempore ducimus tempora possimus repellendus, dicta, nesciunt saepe eum veniam dolorem! Mollitia eum incidunt quaerat at cum officiis eveniet quisquam alias natus? Rem, nobis nostrum officiis reiciendis accusamus dolores porro dolorem aliquam eius cupiditate totam illum libero autem ipsum sint corrupti recusandae quaerat vitae voluptatem, est at. Facere exercitationem nihil magni quis aliquam? Voluptas, necessitatibus reiciendis? Laboriosam quae magni earum et assumenda porro distinctio id doloremque ea expedita, reprehenderit, voluptatum maiores vitae incidunt! Neque at eos enim a corporis iure quo nulla laudantium labore.</p>
+@endsection

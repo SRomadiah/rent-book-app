@@ -12,6 +12,6 @@ class BookController extends Controller
     // }
     public function index()
     {
-        dd('halo ini halaman buku');
+        return view('books');
     }
 }
