@@ -1,12 +1,12 @@
 @extends('layouts.mainlayout')
 
-@section('title', 'User')
+@section('title', 'Blacklisted User')
 @section('content')
-<h1>User List</h1>
-<div class="mt-5 d-flex justify-content-end">
+<h1>Blacklisted User</h1>
+{{-- <div class="mt-5 d-flex justify-content-end">
   <a href="/registered-user" class="btn btn-primary me-3">New Registered User</a>
   <a href="/user-blacklisted" class="btn btn-secondary">View Blacklist User</a>
-</div>
+</div> --}}
 <div class="mt-5">
   @if (session('status'))
     <div class="alert alert-success">
@@ -25,14 +25,13 @@
       </tr>
     </thead>
     <tbody>
-      @foreach($users as $item)
+      @foreach($blacklistedUser as $item)
       <tr>
         <td>{{ $loop->iteration }}</td>
         <td>{{ $item->username }}</td>
         <td>{{ $item->phone }}</td>
         <td>
-          <a href="/user-detail/{{$item->slug}}">Detail</a>
-          <a href="/user-blacklist/{{$item->slug}}">Blacklist</a>
+          <a href="/user-restore/{{$item->slug}}">Restore</a>
         </td>
       </tr>
       @endforeach

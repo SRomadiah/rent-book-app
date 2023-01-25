@@ -19,7 +19,7 @@ class OnlyAdmin
     {
         // ini untuk yang bukan login sebagai admin 
         if (Auth::user()->role_id != 1) {
-            return redirect('books');
+            return redirect('/');
         }
         // ini untuk yang login sebagai admin
         return $next($request);

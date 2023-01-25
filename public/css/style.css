@@ -1,8 +1,12 @@
+.nav-bg {
+    background-color: #826f66;
+}
+
 .main {
     height: 100vh;
 }
 .sidebar {
-    background-color: grey;
+    background-color: #594545;
     color: white;
 }
 .sidebar a {
@@ -12,9 +16,34 @@
     padding: 15px 10px;
 }
 .sidebar a:hover {
-    background-color: blue;
+    background-color: #553939;
 }
 .active {
-    background-color: blue;
-    border-right: solid 5px black;
+    background-color: #3c2317;
+    border-right: solid 5px #9e7676;
+}
+.card-data {
+    border: solid 1px black;
+    padding: 10px 20px;
+}
+.card-data.book {
+    background-color: #9e7676;
+}
+.card-data.categories {
+    background-color: #815b5b;
+}
+.card-data.users {
+    background-color: #594545;
+}
+.card-data i {
+    font-size: 40px;
+}
+.card-desc {
+    font-size: 28px;
+}
+.card-count {
+    font-size: 18px;
+}
+.images {
+    width: 100px;
 }
